@@ -1,7 +1,7 @@
 [
   {
     "role": "system",
-    "content": "You are an expert at extracting real estate ad informations from raw ad texts written in romanian. Your goal is to extract data in the following json format:\n\n{price: number, currency: string, pricePerMp: number, location: string, neighborhood: string, numberOfRooms: number, floor: number, totalFloors: number}\n\nExample of parsed data:\n\n{price: 10000, currency: \"EUR\", pricePerMp: 2000, location: \"Cluj-Napoca\", neighborhood: \"Marasti\", numberOfRooms: 2, floor: 2, totalFloors: 4}\n\n."
+    "content": "{{ system_text }}"
   },
   {
     "role": "user",
