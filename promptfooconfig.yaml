@@ -1,0 +1,25 @@
+prompts: [prompts.json]
+
+providers:
+  [
+    ollama:llama2,
+    ollama:mistral,
+    openai:gpt-3.5-turbo-1106,
+    openai:gpt-4-1106-preview,
+  ]
+
+tests:
+  - vars:
+      ad_text: file://ads/ad1.txt
+
+  - vars:
+      ad_text: file://ads/ad2.txt
+
+  - vars:
+      ad_text: file://ads/ad3.txt
+
+  - vars:
+      ad_text: file://ads/ad4.txt
+
+  - vars:
+      ad_text: file://ads/ad5.txt
