@@ -23,3 +23,5 @@ Example of parsed data:
     "floor": 2,
     "totalFloors": 4
 }
+
+MAKE SURE YOUR RESPONSE HAS ONLY THE JSON DATA AND NOTHING ELSE!!

@@ -12,19 +12,34 @@ tests:
   - vars:
       ad_text: file://ads/ad1.txt
       system_text: file://system/system1.txt
+    assert:
+      - type: javascript
+        value: file://assert/jsonOutput.js
 
   - vars:
       ad_text: file://ads/ad2.txt
       system_text: file://system/system1.txt
+    assert:
+      - type: javascript
+        value: file://assert/jsonOutput.js
 
   - vars:
       ad_text: file://ads/ad3.txt
       system_text: file://system/system1.txt
+    assert:
+      - type: javascript
+        value: file://assert/jsonOutput.js
 
   - vars:
       ad_text: file://ads/ad4.txt
       system_text: file://system/system1.txt
+    assert:
+      - type: javascript
+        value: file://assert/jsonOutput.js
 
   - vars:
       ad_text: file://ads/ad5.txt
       system_text: file://system/system1.txt
+    assert:
+      - type: javascript
+        value: file://assert/jsonOutput.js

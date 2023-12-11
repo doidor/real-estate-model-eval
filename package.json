@@ -1,0 +1,14 @@
+{
+  "name": "real-estate-model-eval",
+  "version": "1.0.0",
+  "description": "To get started, set your OPENAI_API_KEY environment variable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
